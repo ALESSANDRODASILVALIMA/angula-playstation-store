@@ -1,0 +1,19 @@
+<div class="" [ngClass]="{'container-nav-secondaria-hidden': ativo, 'container-nav-secondaria': !ativo}">
+    <div class="cima">
+        <ul>
+            <li *ngFor="let item of menuCima ">
+                 <img src="{{item.imagem}}" alt="img-{{item.nome}}">
+                 {{item.nome}}
+            </li>
+            {{nomeMenu}}
+        </ul>
+    </div>
+    <hr>
+    <div class="baixo">
+        <ul>
+            <li *ngFor="let item of menuBaixo ">
+                {{item.nome}}
+           </li>
+        </ul>
+    </div>
+</div>

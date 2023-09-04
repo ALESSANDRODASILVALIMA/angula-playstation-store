@@ -1,0 +1,71 @@
+.container-nav-secondaria{   
+ 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: max-height 0.9s ease;
+    max-height: 500px; /* Defina a altura máxima desejada quando o menu estiver aberto */
+    
+}
+.container-nav-secondaria-hidden {
+    max-height: 0; /* Inicialmente, o menu está oculto */    
+}
+
+.container-nav-secondaria .cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;   
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    
+}
+
+.container-nav-secondaria .cima img{
+    width: 100%;
+    height: 50px;
+    margin: 1rem;
+}
+.container-nav-secondaria .baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+}
+.container-nav-secondaria .cima ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;    
+}
+.container-nav-secondaria .cima ul li:hover{
+    border: solid 1px black;
+}
+.container-nav-secondaria .cima ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.container-nav-secondaria .baixo ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ 
+}
+.container-nav-secondaria .baixo ul li{
+    display: flex;
+    align-items: center;
+    
+}
+.container-nav-secondaria .baixo ul li:before {
+    content: '\2022';
+    margin: 0 2px;
+    padding: 2px;
+    font-size: 1.5em;
+    color: #0a0a0a /* cor da bolinha */
+}
