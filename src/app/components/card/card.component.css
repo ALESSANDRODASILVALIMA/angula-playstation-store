@@ -2,25 +2,35 @@
     display: flex;
     flex-direction: column;
     width: 266px;
-    height: 366px;
-    background-color: antiquewhite;
-    position: relative;
-    border: 1px solid black;
-}
-.card_container_img img{
-    position: relative;
-    width: 100%;
-    height: 266px;
-    border: 5px solid rgb(62, 196, 0);
-}
-.card_container_img img{
+    height: 366px;    
+    position: relative;    
+    padding: 5px;
+    overflow: hidden;
     
+}
+.card_container_img img{
+    position: relative;
     width: 100%;
-    height: 266px;
+    height: 256px;
+    border-radius: 5px;
+    
+   
+}
+
+.card_container_img img:hover{
+    border-radius: 5px;
+    border: 3px solid #FFF;
+    
+    
+}  
+.card_informacoes_venda span{
+    color: #78839D;
+    font-size: .8rem;
     
 }
 .card_informacoes_venda{
     position: absolute;
     bottom: 0px;
+    
     
 }

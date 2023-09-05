@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-
+    nomeCard:string = "Edição Utimate EA SPORTS FC 24 para ps4 e ps5"
 }

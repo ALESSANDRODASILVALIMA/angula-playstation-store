@@ -5,8 +5,10 @@
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     transition: max-height 0.9s ease;
-    max-height: 500px; /* Defina a altura máxima desejada quando o menu estiver aberto */
-    
+    min-height: 250px; /* Defina a altura máxima desejada quando o menu estiver aberto */
+    -webkit-box-shadow: 1px 37px 37px -30px rgba(0,0,0,0.76);
+-moz-box-shadow: 1px 37px 37px -30px rgba(0,0,0,0.76);
+box-shadow: 1px 37px 37px -30px rgba(0,0,0,0.76);
 }
 .container-nav-secondaria-hidden {
     max-height: 0; /* Inicialmente, o menu está oculto */    

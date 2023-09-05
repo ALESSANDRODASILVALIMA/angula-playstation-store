@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-label-card-valor-desconto',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LabelCardValorDescontoComponent {
 
+  @Input() valor:number = 0;
+  @Input() desconto:number = 0;
 }

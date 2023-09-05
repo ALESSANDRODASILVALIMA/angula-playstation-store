@@ -10,6 +10,9 @@ import { MenuPsnComponent } from './components/menu-psn/menu-psn.component';
 import { CardComponent } from './components/card/card.component';
 import { LabelCardComponent } from './components/card/label-card/label-card.component';
 import { LabelCardValorDescontoComponent } from './components/card/label-card-valor-desconto/label-card-valor-desconto.component';
+import { HeaderTitleComponent } from './components/header-title/header-title.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ColecoesComponent } from './pages/colecoes/colecoes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,8 @@ import { LabelCardValorDescontoComponent } from './components/card/label-card-va
     MenuPsnComponent,
     CardComponent,
     LabelCardComponent,
-    LabelCardValorDescontoComponent
+    LabelCardValorDescontoComponent,   
+    HeaderTitleComponent, FooterComponent, ColecoesComponent
   ],
   imports: [
     BrowserModule,

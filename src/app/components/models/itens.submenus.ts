@@ -1,16 +1,16 @@
 export const menusNavSecundariaTop: Record<string, Record<string, any>> = {
     Jogos: {
-        PS5: { nome: "PS5", rota:"ps5games", imagem:"" },        
-        PS4: { nome: "PS4", rota:"ps4", imagem:"" },        
-        PSVR: { nome: "PS VR", rota:"psvr", imagem:"" },        
-        PSPLUS: { nome: "PS Plus", rota:"psplus", imagem:"g" },        
-        COMPRAJOGOS: { nome: "Compra Jogo", rota:"comprajogos", imagem:"" },        
+        PS5: { nome: "PS5", rota:"ps5games", imagem:"https://www.gran-turismo.com/gtsport/decal/7350531078359089152_1.png" },        
+        PS4: { nome: "PS4", rota:"ps4", imagem:"https://cdn-icons-png.flaticon.com/512/771/771262.png" },        
+        PSVR: { nome: "PS VR", rota:"psvr", imagem:"https://www.seekpng.com/png/small/89-893660_playstation-vr-ps-vr-logo-png.png" },        
+        PSPLUS: { nome: "PS Plus", rota:"psplus", imagem:"https://pbs.twimg.com/media/DmxpTFuXoAMiuM3.png" },        
+        COMPRAJOGOS: { nome: "Compra Jogo", rota:"comprajogos", imagem:"https://metro.co.uk/wp-content/uploads/2020/10/PlayStation-Store-logo-27fa.jpg?quality=90&strip=all" },        
     },
     Hardware: {
-        PS5: { nome: "PS5", rota:"ps5hardware" },        
-        PS4: { nome: "PS4", rota:"ps4hardware" },        
-        PSVR: { nome: "PS4 Pro", rota:"ps4prohardware" },        
-        PSPLUS: { nome: "PS VR2", rota:"psvr2hardware" },     
+        PS5: { nome: "PS5", rota:"ps5hardware", imagem:"https://www.gran-turismo.com/gtsport/decal/7350531078359089152_1.png" },        
+        PS4: { nome: "PS4", rota:"ps4hardware", imagem:"https://cdn-icons-png.flaticon.com/512/771/771262.png" },        
+        PSVR: { nome: "PS4 Pro", rota:"ps4prohardware", imagem:"https://cdn-icons-png.flaticon.com/512/771/771262.png" },        
+        PSPLUS: { nome: "PS VR2", rota:"psvr2hardware", imagem:"https://blog.br.playstation.com/uploads/sites/4/2023/02/3d2dd04800c10f48c2567015f1458c7dd85f2595.png" },     
              
     }
 

@@ -1,0 +1,23 @@
+/*#78839D*/
+.card_label_valor_container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.desconto{
+    display: flex;
+    flex-direction: row;
+    color: #78839D;
+    font-size: .8rem;
+    margin: .3rem 0 0rem 0;
+    align-items: center;
+}
+.desconto i{
+    color: #030303;
+    font-size: 1rem;
+}
+
+.valor{
+    margin: 0 0 .5rem 0;
+}

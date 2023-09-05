@@ -1,6 +1,24 @@
-.main{
-    width: 100%;
-    height: 150rem;
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 100%;  
+    background-color: rgb(255, 255, 255);
+}
+
+.container_card_header{
     margin-top: 8rem;
-    background-color: rgb(252, 252, 252);
+    margin-bottom: 2rem;
+}
+.container_card_prevenda{    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;    
+    justify-items: center;    
+    
+}
+
+
+.main{
+    margin: 0rem 6rem 0 6rem;
 }

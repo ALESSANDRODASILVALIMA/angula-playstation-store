@@ -2,9 +2,7 @@
 .container-sony-bar_fixo{
     display: block;
     position: fixed;
-    width: 100%;
-    
-   
+    width: 100%;    
     z-index: 100;
 
 }
